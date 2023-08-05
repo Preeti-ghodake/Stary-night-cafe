@@ -1,0 +1,476 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    /* background-color:lightblue; */
+    background-image: url(https://ik.imagekit.io/6xlvknckc/home2bg.jpeg?updatedAt=1691269376785);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow-x: hidden;
+    
+    
+}
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgba(34, 34, 34, 0.315);
+    position: sticky;
+    top: 0px;
+    backdrop-filter: blur(5px);
+    
+}
+header h1{
+    color: rgba(239, 243, 178, 0.966);
+}
+header nav li:hover a{
+    /* background-color: #fff; */
+    color:black;
+}
+header nav li:hover{
+    background-color: #fff;
+    color:black;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+header h1 span{
+    color:rgb(212, 88, 66);
+    font-size: 1.5em;
+    text-shadow: 2px 2px 0px rgb(255, 255, 255);
+}
+header ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    z-index: 2;
+
+}
+header ul li{
+    margin: 10px 20px;
+    font-size: 1.2em;
+    padding: 5px 20px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+   
+
+}
+header ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.home_section{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+}
+/* .home_ct{
+    width: 80%;
+    height: 50%;
+    background-color: rgba(211, 211, 191, 0.075);
+    margin: 50px;
+    backdrop-filter: blur(4px);
+} */
+.home_section h1{
+    color: rgb(181, 224, 164);
+    text-transform: capitalize;
+    font-size: 5em;
+    margin: 20px 40px ;
+    text-shadow: 2px 0px 15px black;
+}
+
+.home_section p{
+    color: rgb(207, 231, 195);
+    text-transform: capitalize;
+    font-size: 1.5em;
+    margin: 20px 40px ;
+    text-shadow: 2px 0px 10px black;
+}
+.home_section h2{
+    color: rgb(241, 233, 161);
+    text-transform: capitalize;
+    font-size: 1.5em;
+    margin: 20px 40px ;
+    text-shadow: 0px 0px 10px black;
+}
+.menu_section{
+    width: 100%;
+    height: 80%;
+    background-image: url(https://img.freepik.com/free-photo/vegetables-set-left-black-slate_1220-685.jpg?w=1380&t=st=1691244537~exp=1691245137~hmac=6323adaf1e3d3853d0e191785f14c6c8e38900291cdc758b00a0fa1fa7f11369);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.menu_section h1{
+    font-size: 3em;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+
+}
+.menu_section h3{
+    font-size: 2em;
+    margin-bottom: 40px;
+    border-bottom:1px solid #fff;
+    padding: 20px 30px;
+    /* position: relative;
+    top:20px; */
+    text-transform: capitalize;
+    
+}
+.menu_section ul{
+    list-style: none;
+    color: #fff;
+    
+   
+}
+.menu_section ul li{
+    font-size: 2em;
+    text-transform: capitalize;
+    padding: 10px 150px;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+}
+.menu_section ul li a{
+    text-decoration: none;
+    color: beige;
+}
+.menu_section ul li a:hover{
+    text-decoration: underline;
+}
+.events_section{
+    width:100%;
+    height: 100vh;
+    color: rgb(44, 44, 48);
+    display: block;
+    /* background-color:blue; */
+
+}
+.events_section .td_e:nth-child(2){
+    flex-flow: row-reverse;} 
+
+.events_section .td_e{
+    width: 100%;
+    height: 40%;
+    background-image: url(https://img.freepik.com/free-vector/golden-dust-elements-falling-down_60438-1955.jpg?w=1060&t=st=1691247469~exp=1691248069~hmac=caab3f56c64d175a8d1864f2343eddcc6653da1ef954287cbdf4926ca672238b);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+
+}
+.events_section .td_e .e_img{
+    width: 30%;
+    height: 70%;
+    background-image: url(https://img.freepik.com/premium-photo/charming-female-blowing-candles-birthday-cake-after-making-her-wish-party_361425-2754.jpg?w=996);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(150, 149, 149);
+}
+.events_section .td_e .e_img2{
+
+    width: 30%;
+    height: 70%;
+    background-image: url(https://img.freepik.com/free-photo/couple-having-dinner-valentines-day_23-2148383187.jpg?w=996&t=st=1691247137~exp=1691247737~hmac=2f286a74095a22264e4af601dd11ca0e6a27aba1cafea25d74b180fdd7321b46);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(117, 116, 116);
+}
+.events_section .td_e .e_contetn{
+    width: 30%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+.events_section .td_e:nth-child(2) .e_contetn{
+    text-align: left;
+}
+.events_section .td_e .e_contetn h1{
+    font-size: 2.5em;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.events_section .td_e .e_contetn h2{
+    font-size: 2em;
+    text-transform: capitalize;
+    margin-top: 20px;
+    color: rgb(236, 236, 132);
+}
+.events_section .td_e .e_contetn p{
+    font-size: 1em;
+    text-transform: capitalize;
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(202, 202, 162);
+}
+.events_section .up_e{
+    width: 100%;
+    height: 20%;
+    background-image: url(https://media.istockphoto.com/id/1312429048/photo/close-up-of-confetti.jpg?s=612x612&w=0&k=20&c=UcZVZeg8troPei3COcHOvDnXpMHYiEobBgq45SDZB5M=);
+    background-repeat:no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.events_section .up_e h1{
+    color: #fff;
+    text-shadow: 2px 0px 5px black;
+    margin: 10px;
+    font-style: italic;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+.events_section .up_e h2{
+    color: #fff;
+    text-shadow: 2px 0px 5px black;
+    font-style: italic;
+    font-size: 1.5em;
+    text-transform: capitalize;
+}
+.events_section .up_e .content{
+    color: black;
+    font-size: large;
+}
+.gallary_section{
+    width: 100%;
+    height: 80%;
+    background-image: url(https://img.freepik.com/free-photo/dark-cloth-with-plate-waffles_23-2148340374.jpg?w=996&t=st=1691256841~exp=1691257441~hmac=3908dd5e897f7d030fa98cc375eaff4c14842d93bcfef878726f06d6cc0b9808);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+   
+} 
+.gallary_section .container{
+    width: 75%;
+    height: 90%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 30px;
+    backdrop-filter: blur(2px);
+    /* background-color: antiquewhite; */
+}
+.gallary_section .head{
+    width: 50%;
+    height: 70%;
+}
+.gallary_section .head h1{
+    font-size: 3em;
+    text-transform: uppercase;
+    color: #fff;
+}
+.gallary_section .head h2{
+    font-size: 2em;
+    text-transform: capitalize;
+    color: rgb(212, 146, 84);
+}
+.gallary_section .head p{
+    font-size: 1.5em;
+    color: beige;
+}
+.gallary_section .g_img{
+    width: 40%;
+    height: 70%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    position: relative;
+    top: -50px;
+    right: 50px;
+}
+.gallary_section .g_img img{
+    border: 10px solid #fff;
+    border-radius: 50px 0px 50px 0px;
+    margin: 10px 0px 0px 25px;
+}
+.about_section{
+    height: 90vh;
+    width: 100%;
+    background:linear-gradient(rgb(241, 145, 81),rgb(0, 0, 0));
+    color: #fff;
+}
+.about_section .about_head{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.about_section .about_head h1{
+    font-size: 5em;
+    border-bottom: 2px solid rgb(243, 243, 243);
+
+}
+.about_section .about_text p{
+    font-size: 1.5em;
+    margin:  10px 100px;
+
+}
+.about_section .about_head img{
+    box-shadow: 0px 0px 5px rgb(160, 160, 160);
+    border-radius: 10px;
+}
+
+
+.contact_section{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(rgb(34, 33, 33),rgb(0, 0, 0)) ;
+
+}
+.contact_section .container{
+    width:70%;
+    height: 90%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    /* box-shadow: 0px 0px 10px rgb(226, 121, 121);    */
+}
+.contact_section .contente{
+    width: 90%;
+    height: 50%;
+    background-color: rgba(241, 145, 81, 0.671);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    backdrop-filter: blur(10px);
+    
+}
+.contact_section .contente .text{
+    width:65%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+ 
+   
+}
+.contact_section .contente .text h1{
+    font-size: 3em;
+    text-transform: capitalize;
+    /* text-decoration: underline; */
+    color: #fff;
+    position: relative;
+}
+.contact_section  .contente .text h1::after{
+    content: "";
+    width: 50%;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+}
+.contact_section  .container .text p{
+    font-size: 1.5em;
+    color: #fff;
+    margin-top: 10px;
+}
+.contact_section .container .form1{
+    width: 90%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    backdrop-filter: blur(10px);
+}
+
+.contact_section  .contact{
+    width: 50%;
+    height: 100%;
+    background:linear-gradient( rgba(241, 145, 81, 0.746),black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+.contact_section .contact .form_input input{
+    border: none;
+    outline: none;
+    padding: 6px;
+    margin: 7px 0px;
+    width: 100%;
+}
+.contact_section .contact .form_input textarea{
+    border: none;
+    outline: none;
+    margin-top:5px;
+}
+.contact_section  .container .address{
+    width: 50%;
+    height: 100%;
+    background:linear-gradient( rgba(241, 145, 81, 0.788),black);
+    padding: 15px;
+    
+}
+footer{
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    min-height: 100px;
+    background-color: #10171c;
+    color: #fff;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+footer [class*="fa-"]{
+    font-size: 2em;
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 1s;
+}
+footer [class*="fa-"]:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+

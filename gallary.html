@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: black;
+            flex-direction: column;
+        }
+        h1{
+            color: #fff;
+            font-size: 3em;
+        }
+
+        .gallery {
+           width: 75%;
+           height: 80%;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: minmax(250px,auto);
+            grid-gap: 6px;
+
+        }
+
+        .gallery img {
+            align-items: center;
+            width: 280px;
+            height: 250px;
+            cursor: pointer;
+            
+        }
+
+        .haeding {
+            border-radius: 10px solid #222;
+            display: flex;
+           
+            
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+            transition: 1s;
+        }
+
+        .heder {
+            text-align: center;
+            text-transform: uppercase;
+            cursor: pointer;
+            color: blueviolet;
+        }
+    </style>
+    
+
+    
+</head>
+<body>
+    <h1>Photo Gallary</h1>
+        
+    <div class="gallery">
+        <img src="https://ik.imagekit.io/es0wilrw5/wine.5.jpeg?updatedAt=1691222355214" alt="">
+        <img src="https://ik.imagekit.io/es0wilrw5/party.5.jpg?updatedAt=1691222352796" alt="">
+        <img src="https://ik.imagekit.io/es0wilrw5/new.3.jpeg?updatedAt=1691223712108" alt="">
+        <img src="https://ik.imagekit.io/es0wilrw5/party.4.jpg?updatedAt=1691222352997" alt="">
+        <img src="https://ik.imagekit.io/es0wilrw5/wine.4.jpeg?updatedAt=1691222354985" alt="">
+        <img src="https://ik.imagekit.io/es0wilrw5/food.6.jpeg?updatedAt=1691222349450" alt="">
+        <img src="https://ik.imagekit.io/es0wilrw5/chief.2.jpeg?updatedAt=1691222349455" alt="">
+        <img src="https://ik.imagekit.io/es0wilrw5/interior.2.jpeg?updatedAt=1691222349573" alt="">
+        <img src="https://ik.imagekit.io/es0wilrw5/food.7.jpeg?updatedAt=1691222349667" alt="">
+        <img src="https://ik.imagekit.io/es0wilrw5/party.1.jpeg?updatedAt=1691222352568" alt="">
+        <img src="https://ik.imagekit.io/es0wilrw5/chief.3.jpeg?updatedAt=1691222349480" alt="">
+        <img src="https://ik.imagekit.io/es0wilrw5/food.9.jpeg?updatedAt=1691222349117" alt="">
+        <img src="https://ik.imagekit.io/es0wilrw5/chief.4.jpeg?updatedAt=1691222349472" alt="">
+        <img src="https://ik.imagekit.io/es0wilrw5/new.2.jpeg?updatedAt=1691223712163" alt="">
+        <img src="https://ik.imagekit.io/es0wilrw5/interior.1.jpg?updatedAt=1691222349749" alt="">
+        <img src="https://ik.imagekit.io/es0wilrw5/new.1.jpeg?updatedAt=1691223712175" alt="">
+        <img src="https://ik.imagekit.io/es0wilrw5/wine.2.jpeg?updatedAt=1691222353215" alt="">
+        <img src="https://ik.imagekit.io/es0wilrw5/new.3.jpeg?updatedAt=1691223712108" alt="">
+        <img src="https://ik.imagekit.io/es0wilrw5/interior.4.jpeg?updatedAt=1691222352412" alt="">
+        <img src="https://ik.imagekit.io/es0wilrw5/chief.1.jpeg?updatedAt=1691222349469" alt="">
+        
+
+     </div>
+   
+</body>
+</html>

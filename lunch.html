@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         #food-menu {
+        padding: 5rem 0;
+        background: #f5f5f5;
+    }
+
+    .food-menu-heading {
+        width: 100%;
+        height:50px;
+        text-align: center;
+        font-size: 3.4rem;
+        font-weight: 500;
+        color: #e11bb6;
+    }
+
+    .food-menu-container {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 50px 0px 30px 0px;
+        background-color: antiquewhite;
+    }
+
+    .food-menu-container img {
+        display: block;
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .food-menu-item {
+        display: flex;
+        flex: 1 1 600px;
+        justify-content: space-evenly;
+        margin-bottom: 3rem;
+    }
+
+    .food-description {
+        margin: auto 1.5rem;
+    }
+
+    .food-title {
+        font-size: 1.8rem;
+        color: #e11bb6;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+
+    .food-description p {
+        font-size: 1.4rem;
+        color:#555;
+        font-weight: 600;
+    }
+    .food-description .food-price {
+        color:#e11bb6;
+        font-weight: 700;
+    }
+    </style>
+</head>
+<body>
+    <section id="food-menu">
+        <h2 class="food-menu-heading">Lunch</h2>
+        <div class="food-menu-container container">
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu4c87sCGWdZGrdI-Vr3LBkbnXi2LU6QS0aQ&usqp=CAU" alt="">
+                </div>
+                <div class="food-description">
+                    <h2 class="food-title">Egg curry</h2>
+                    <p>Egg curry is a comforting Indian dish of curried eggs.</p>
+                    <p class="food-price"> Price: &#8377;100 </p>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBSE4PzTpipkyDlr-1IYPXCpc46shG_E7-aA&usqp=CAU" alt="">
+                </div>
+                <div class="food-description">
+                    <h2 class="food-title">veg meal</h2>
+                    <p>A vegitables is a food typically consisting of vegetables.</p>
+                    <p class="food-price"> Price: &#8377;150 </p>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="https://www.shutterstock.com/shutterstock/photos/1852796557/display_1500/stock-photo-madurai-india-nov-non-veg-meals-with-all-dishes-1852796557.jpg" alt="">
+                </div>
+                <div class="food-description">
+                    <h2 class="food-title">fish meal</h2>
+                    <p>Fish meal is an excellent source of highly digestible protein.</p>
+                    <p class="food-price"> Price: &#8377;200 </p>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="https://yummypunjabiflavours.ca/wp-content/uploads/2022/05/2021_1largeimg_1922831586.jpg" alt="">
+                </div>
+                <div class="food-description">
+                    <h2 class="food-title">Non-veg Thali</h2>
+                    <p>Indian chicken curry is an easy and delicious dish that is perfect for weeknights.</p>
+                    <p class="food-price"> Price: &#8377;352 </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
