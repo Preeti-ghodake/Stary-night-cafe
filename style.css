@@ -278,9 +278,35 @@ header ul li a{
     backdrop-filter: blur(2px);
     /* background-color: antiquewhite; */
 }
+.gallary_section .container button{
+    width:250px;
+    height: 30px;
+    background-color: rgba(196, 152, 94, 0.74);
+    padding: 10px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.gallary_section .container button a{
+    text-decoration: none;
+    color: rgb(236, 230, 203);
+    font-size: 15px;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+}
+.gallary_section .container button:hover{
+    transform: scale(1.1) translateX(10px);
+    transition: 1s;
+    
+}
+
 .gallary_section .head{
     width: 50%;
     height: 70%;
+  
 }
 .gallary_section .head h1{
     font-size: 3em;
@@ -317,7 +343,7 @@ header ul li a{
     color: #fff;
 }
 .about_section .about_head{
-    height: 50vh;
+    min-height: 50vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -341,7 +367,7 @@ header ul li a{
 
 .contact_section{
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -400,7 +426,7 @@ header ul li a{
 }
 .contact_section .container .form1{
     width: 90%;
-    height: 50%;
+    min-height: 50%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -410,7 +436,7 @@ header ul li a{
 
 .contact_section  .contact{
     width: 50%;
-    height: 100%;
+    min-height: 100%;
     background:linear-gradient( rgba(241, 145, 81, 0.746),black);
     display: flex;
     align-items: center;
